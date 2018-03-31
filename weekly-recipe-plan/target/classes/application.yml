@@ -1,0 +1,10 @@
+server:
+  port: 8989
+  servlet:
+    context-path: /recipes
+spring:
+  thymeleaf:
+    prefix: classpath:templates/
+    suffix: .html
+    mode: HTML5
+    encoding: UTF-8
